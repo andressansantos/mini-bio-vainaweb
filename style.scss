@@ -1,0 +1,60 @@
+$padding-size: 20px;
+$border-radius: 15px;
+$footer-bg-color: #333;
+$footer-text-color: #fff;
+
+body {
+    background-color: rgb(117, 117, 224);
+    font-family: "Gill Sans", sans-serif;
+    color: rgb(9, 8, 8);
+    display: flex;
+    flex-direction: column;
+    min-height: 100vh;
+    margin: 0;
+     
+}
+
+main {
+    flex: 1; /* para que o conteúdo principal ocupe o espaço restante disponível.    */
+    display: flex;
+    flex-direction: column;
+    align-items: center; /* Center content horizontally */
+}
+
+
+
+.container {
+    padding: $padding-size;
+    background-color: rgb(216, 216, 231);
+    border: 1px solid rgb(216, 216, 231);
+    border-radius: $border-radius;
+    width: 80%;     /* largura para o container */
+    max-width: 1000px;    /* largura máxima */
+    margin: 20px 0;
+}
+
+.container2 {
+    padding: $padding-size;
+    background-color: rgb(216, 216, 231);
+    border: 5px solid rgb(216, 216, 231);
+    border-radius: $border-radius;
+    width: 80%;     /* largura para o container */
+    max-width: 1000px;    /* largura máxima */
+    margin: 5px 0;
+}
+
+img {
+    border-radius: 50%;
+    width: 17%;
+    height: 17%;
+}
+
+footer {
+    background-color: $footer-bg-color;
+    color: $footer-text-color;
+    text-align: center;
+    padding: 5px 0;
+    position: relative;
+    width: 100%;
+
+}
